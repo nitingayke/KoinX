@@ -24,7 +24,7 @@ export default function RightComponent() {
                             { title: "Polygon(MATIC)", status: 4.32 },
                         ].map((data, idx) => (
                             <div key={idx} className='flex justify-between'>
-                                <h1 className='text-md font-semibold'>{data.title}</h1>
+                                <h1 className='text-md font-semibold text-gray-500'>{data.title}</h1>
                                 <button className='bg-green-100 rounded px-2 text-green-800'><ArrowDropUpIcon /> <span className='text-sm'>{data.status}</span></button>
                             </div>
                         ))

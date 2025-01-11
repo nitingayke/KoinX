@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    scroll-behavior: smooth
+}
 #root {
     height: 100vh;
     overflow: auto;
